@@ -1,0 +1,1 @@
+export { parseAllMusic } from "./parseAllMusic";

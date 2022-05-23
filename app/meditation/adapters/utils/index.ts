@@ -1,0 +1,1 @@
+export { parseAllCourses } from "./parseAllCourses";

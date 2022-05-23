@@ -1,0 +1,1 @@
+export const serverUrl = "https://denjapp.com/api/v1";

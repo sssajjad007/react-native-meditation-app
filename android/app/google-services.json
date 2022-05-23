@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "189336514254",
+    "project_id": "denj-7a257",
+    "storage_bucket": "denj-7a257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189336514254:android:b11eb2826989b16883ea9f",
+        "android_client_info": {
+          "package_name": "com.denjapp.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189336514254-qkmfh2ifiq5j2cado5hi7t3gadjclrp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBueVwFYBJwdd16j96p0iqLHe0hgD6JAQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189336514254-qkmfh2ifiq5j2cado5hi7t3gadjclrp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

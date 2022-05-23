@@ -1,0 +1,22 @@
+{
+  "name": "Denj",
+  "displayName": "Denj",
+  "expo": {
+    "name": "Denj",
+    "slug": "Denj",
+    "version": "1.0.0",
+    "scheme": "denj",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.denjapp.android"
+    },
+    "ios": {
+      "bundleIdentifier": "com.karafs.denj"
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
+  }
+}

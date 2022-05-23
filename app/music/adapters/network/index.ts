@@ -1,0 +1,1 @@
+export { fetchGetAllMusic } from "./fetchGetAllMusic";

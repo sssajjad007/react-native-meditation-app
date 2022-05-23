@@ -1,0 +1,23 @@
+image: git.karafsapp.com:4567/utils/docker:latest
+
+stages:
+  - deploy
+
+services: 
+  - docker:dind
+  
+variables:
+ CONTAINER_IMAGE: $CI_REGISTRY_IMAGE
+
+deploy:
+  stage: deploy
+  before_script:
+    - mkdir -p ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+    - chmod 700 ~/.ssh/id_rsa
+    - eval "$(ssh-agent -s)"
+    - ssh-add ~/.ssh/id_rsa
+  script:
+    - ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa "$USERNAME"@"$BUILD_SERVER_IP"  "./workspace/denj/release.sh"
+  only:
+    - stable
