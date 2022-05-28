@@ -8,8 +8,8 @@ export async function retrieveFavTracks() {
   }
   //TODO: later we can use this for another key
   const favTracksList = [];
-  for (let index = 0; index < favTracks.favTrack.length; index++) {
-    const item = favTracks.favTrack[index];
+  for (let index = 0; index < favTracks.length; index++) {
+    const item = favTracks[index];
     if (item) {
       const trackStr = storage.retrieve(item, "string");
       if (trackStr) {

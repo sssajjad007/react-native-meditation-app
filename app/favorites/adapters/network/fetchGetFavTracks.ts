@@ -9,13 +9,13 @@ export async function fetchGetFavTracks(): Promise<IFetchGetFavTracksProps> {
     method: "GET",
     body: undefined,
   });
-  if (!success || !payload?.user) {
+  if (error) {
     return {
-      error: error || "some error",
-      favTracks: undefined,
+      error,
+      favTracks: [],
     };
   }
-  const favTracks: IFavTrack = parseFavTrack(payload?.user);
+  const favTracks = parseFavTrack(payload?.user);
   return {
     error: "",
     favTracks,
