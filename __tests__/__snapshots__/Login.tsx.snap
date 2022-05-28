@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+          "paddingBottom": 40,
+          "paddingTop": 32,
+        },
+        undefined,
+        Object {
+          "alignItems": "center",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 125,
+            "width": 120,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 0.5,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Text
+        mode="mediumHeadline22"
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Medium",
+                "fontSize": 22,
+              },
+              Object {
+                "color": "#200E32",
+              },
+            ],
+          ]
+        }
+      >
+        به دنج خوش اومدید !
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        mode="mediumBody16"
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Medium",
+                "fontSize": 16,
+              },
+              Object {
+                "color": "#676773",
+              },
+            ],
+          ]
+        }
+      >
+        با دنج میتونید مدیتیشن رو یاد بگیرید و تمرین کنید.
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#7766C6",
+              "borderColor": "#7766C6",
+              "borderRadius": 8,
+              "borderWidth": 0,
+              "flexDirection": "row-reverse",
+              "height": 53,
+              "justifyContent": "center",
+              "maxWidth": 645,
+              "minWidth": 675,
+              "overflow": "hidden",
+              "paddingHorizontal": 4,
+            },
+          ]
+        }
+      >
+        <Text
+          mode="boldBody18"
+          numberOfLines={1}
+          style={
+            Array [
+              Array [
+                Object {
+                  "fontFamily": "Dana-Bold",
+                  "fontSize": 18,
+                },
+                Object {
+                  "color": "white",
+                  "marginHorizontal": 4,
+                },
+              ],
+            ]
+          }
+        >
+          ورود
+        </Text>
+        <RNGestureHandlerButton
+          activeOpacity={0.105}
+          collapsable={false}
+          onActiveStateChange={[Function]}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          onPress={[Function]}
+          rippleColor={4293586420}
+          style={
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+          underlayColor="black"
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "black",
+                "borderBottomLeftRadius": undefined,
+                "borderBottomRightRadius": undefined,
+                "borderRadius": undefined,
+                "borderTopLeftRadius": undefined,
+                "borderTopRightRadius": undefined,
+                "bottom": 0,
+                "left": 0,
+                "opacity": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+          />
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

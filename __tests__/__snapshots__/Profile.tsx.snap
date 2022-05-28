@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#F2F4F8",
+        "height": 314,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 3,
+          "flexDirection": "column",
+          "justifyContent": "space-evenly",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "width": 750,
+          }
+        }
+      >
+        <Image
+          collapsable={false}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          resizeMode="contain"
+          source={1}
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
+        />
+        <Text
+          mode="boldBody16"
+          style={
+            Array [
+              Array [
+                Object {
+                  "fontFamily": "Dana-Bold",
+                  "fontSize": 16,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          مدیتیشن های شما
+        </Text>
+        <RNGestureHandlerButton
+          activeOpacity={0.3}
+          borderless={true}
+          collapsable={false}
+          hitSlop={
+            Object {
+              "horizontal": 10,
+              "vertical": 10,
+            }
+          }
+          onActiveStateChange={[Function]}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          onPress={[Function]}
+          rippleColor={1714763061}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Object {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          />
+        </RNGestureHandlerButton>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "height": 118,
+              "width": 118,
+            }
+          }
+        >
+          <Image
+            resizeMode="stretch"
+            source={1}
+            style={
+              Object {
+                "borderRadius": 118,
+                "height": 118,
+                "width": 118,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#7776BE",
+                "borderRadius": 16,
+                "bottom": 0,
+                "height": 32,
+                "justifyContent": "center",
+                "position": "absolute",
+                "right": 0,
+                "width": 32,
+              }
+            }
+          >
+            <Text />
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            mode="boldHeadline22"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Bold",
+                    "fontSize": 22,
+                  },
+                  Object {
+                    "color": "#374354",
+                  },
+                ],
+              ]
+            }
+          >
+            ۰
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            mode="boldHeadline22"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Bold",
+                    "fontSize": 22,
+                  },
+                  Object {
+                    "color": "#374354",
+                  },
+                ],
+              ]
+            }
+          >
+            ۰
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            mode="boldHeadline22"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Bold",
+                    "fontSize": 22,
+                  },
+                  Object {
+                    "color": "#374354",
+                  },
+                ],
+              ]
+            }
+          >
+            ۰
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            mode="regularSub12"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Regular",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#374354",
+                  },
+                ],
+              ]
+            }
+          >
+            دقیقه مدیتیشن
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            mode="regularSub12"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Regular",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#374354",
+                  },
+                ],
+              ]
+            }
+          >
+            مدیتیشن
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <Text
+            mode="regularSub12"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Regular",
+                    "fontSize": 12,
+                  },
+                  Object {
+                    "color": "#374354",
+                  },
+                ],
+              ]
+            }
+          >
+            روز مدیتیشن
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "justifyContent": "flex-start",
+            }
+          }
+        >
+          <Text
+            mode="regularBody16"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Regular",
+                    "fontSize": 16,
+                  },
+                  Object {
+                    "color": "#200E32",
+                    "paddingBottom": 12,
+                    "paddingTop": 32,
+                    "textAlign": "right",
+                    "width": 675,
+                  },
+                ],
+              ]
+            }
+          >
+            پیشرفت شما
+          </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <ActivityIndicator
+              animating={true}
+              color="#7766C6"
+              hidesWhenStopped={true}
+              size="large"
+            />
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaView>
+`;

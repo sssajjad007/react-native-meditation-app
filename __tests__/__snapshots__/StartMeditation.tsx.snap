@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+          "paddingBottom": 40,
+          "paddingTop": 32,
+        },
+        undefined,
+        Object {
+          "backgroundColor": "#061442",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "position": "absolute",
+          "right": 24,
+          "top": 32,
+          "zIndex": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "flex": 4,
+          "justifyContent": "center",
+          "paddingHorizontal": 12,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 5,
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "column-reverse",
+            "height": 130,
+            "justifyContent": "space-evenly",
+            "width": 705,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "paddingLeft": "8%",
+              "width": 645,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

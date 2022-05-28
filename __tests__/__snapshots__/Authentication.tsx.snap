@@ -1,0 +1,360 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#F9FAFC",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 26,
+        "height": 293.5,
+        "justifyContent": "center",
+        "width": 750,
+      }
+    }
+  >
+    <Image
+      resizeMode="stretch"
+      source={1}
+      style={
+        Object {
+          "height": 80,
+          "width": 80,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 133.5,
+        "justifyContent": "center",
+        "width": 750,
+      }
+    }
+  >
+    <Text
+      mode="mediumHeadline22"
+      style={
+        Array [
+          Array [
+            Object {
+              "fontFamily": "Dana-Medium",
+              "fontSize": 22,
+            },
+            Object {
+              "bottom": 36,
+            },
+          ],
+        ]
+      }
+    >
+      شماره موبایلتون رو وارد کنید.
+    </Text>
+    <Text
+      mode="regularBody14"
+      style={
+        Array [
+          Array [
+            Object {
+              "fontFamily": "Dana-Regular",
+              "fontSize": 14,
+            },
+            Object {
+              "bottom": 20,
+              "color": "#676773",
+            },
+          ],
+        ]
+      }
+    >
+      کد تایید براتون پیامک خواهد شد
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 133.5,
+        "justifyContent": "center",
+        "width": 750,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "height": 90,
+            "width": 675,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#F9FAFC",
+              "overflow": "hidden",
+              "paddingHorizontal": 4,
+              "position": "absolute",
+              "right": 16,
+              "top": 18,
+              "zIndex": 1,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "translateX": 0,
+                },
+                Object {
+                  "translateY": 0,
+                },
+                Object {
+                  "scale": 1,
+                },
+              ],
+            },
+          ]
+        }
+      >
+        <Text
+          collapsable={false}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "#676773",
+                "fontFamily": "Dana-Regular",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "letterSpacing": -0.32,
+                "lineHeight": 24,
+                "textAlign": "right",
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          شماره همراه
+        </Text>
+      </View>
+      <View
+        collapsable={false}
+        onGestureHandlerEvent={[Function]}
+        onGestureHandlerStateChange={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "backgroundColor": undefined,
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "height": 56,
+              "paddingRight": 16,
+              "width": 675,
+            },
+            Object {
+              "borderColor": "#676773",
+            },
+            undefined,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          errors={Array []}
+          keyboardType="phone-pad"
+          mode="outlined"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          rejectResponderTermination={true}
+          selectionColor="#D2F2EC"
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "color": "rgba(0,0,0,0.87)",
+                "fontFamily": "System",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "letterSpacing": -0.32,
+                "lineHeight": 24,
+              },
+              Object {
+                "flex": 9,
+                "paddingBottom": undefined,
+                "textAlign": "right",
+              },
+              undefined,
+              undefined,
+              Object {
+                "color": "#676773",
+                "fontFamily": "Dana-Regular",
+              },
+              undefined,
+            ]
+          }
+          textAlignVertical="center"
+          title="شماره همراه"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row-reverse",
+            "height": 34,
+            "overflow": "hidden",
+            "paddingTop": 8,
+            "width": "100%",
+          }
+        }
+      >
+        <Text
+          mode="regularBody14"
+          style={
+            Array [
+              Array [
+                Object {
+                  "fontFamily": "Dana-Regular",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FF5A5A",
+                  "height": "100%",
+                  "marginLeft": 8,
+                  "textAlign": "right",
+                  "width": "100%",
+                },
+              ],
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "height": 667,
+          "justifyContent": "flex-end",
+          "paddingBottom": 66.5,
+          "width": 750,
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#DCDDE0",
+            "borderColor": "#DCDDE0",
+            "borderRadius": 8,
+            "borderWidth": 0,
+            "flexDirection": "row-reverse",
+            "height": 53,
+            "justifyContent": "center",
+            "maxWidth": 645,
+            "minWidth": 675,
+            "overflow": "hidden",
+            "paddingHorizontal": 4,
+          },
+        ]
+      }
+    >
+      <Text
+        mode="boldBody18"
+        numberOfLines={1}
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Bold",
+                "fontSize": 18,
+              },
+              Object {
+                "color": "white",
+                "marginHorizontal": 4,
+              },
+            ],
+          ]
+        }
+      >
+        ارسال کد تایید
+      </Text>
+    </View>
+    <Text
+      mode="regularSub12"
+      style={
+        Array [
+          Array [
+            Object {
+              "fontFamily": "Dana-Regular",
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#676773",
+              "paddingTop": 10,
+            },
+          ],
+        ]
+      }
+    >
+      با ثبت نام و ورود با
+      <Text
+        mode="boldSub12"
+        onPress={[Function]}
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Bold",
+                "fontSize": 12,
+              },
+              Object {
+                "color": "#7766C6",
+              },
+            ],
+          ]
+        }
+      >
+         
+        قوانین دنج
+         
+      </Text>
+      موافقت می کنید.
+    </Text>
+  </View>
+</RNCSafeAreaView>
+`;

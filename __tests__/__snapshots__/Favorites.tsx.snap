@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "backgroundColor": "#F9FAFC",
+          "flexDirection": "row-reverse",
+          "height": 56,
+          "justifyContent": "flex-start",
+          "paddingLeft": 24,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNGestureHandlerButton
+      activeOpacity={0.3}
+      borderless={true}
+      collapsable={false}
+      hitSlop={
+        Object {
+          "horizontal": 10,
+          "vertical": 10,
+        }
+      }
+      onActiveStateChange={[Function]}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      onPress={[MockFunction]}
+      rippleColor={1714763061}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingBottom": 4,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={1}
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+    </RNGestureHandlerButton>
+    <Text
+      mode="boldBody16"
+      style={
+        Array [
+          Array [
+            Object {
+              "fontFamily": "Dana-Bold",
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "marginRight": 16,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      جلسات مورد علاقه
+    </Text>
+  </View>
+  <View
+    headerTitle="جلسات مورد علاقه"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+          "paddingBottom": 40,
+          "paddingTop": 32,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#7766C6"
+        hidesWhenStopped={true}
+        size="large"
+      />
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;

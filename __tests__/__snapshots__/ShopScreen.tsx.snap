@@ -1,0 +1,462 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#F9FAFC",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignSelf": "center",
+        "flexDirection": "row",
+        "height": 80,
+        "justifyContent": "space-between",
+        "paddingTop": 32,
+        "width": "90%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        mode="boldBody16"
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Bold",
+                "fontSize": 16,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        فروشگاه دنج
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+          },
+          Object {
+            "alignItems": "flex-end",
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 16,
+          }
+        }
+      >
+        <RNGestureHandlerButton
+          activeOpacity={0.3}
+          borderless={true}
+          collapsable={false}
+          onActiveStateChange={[Function]}
+          onGestureEvent={[Function]}
+          onGestureHandlerEvent={[Function]}
+          onGestureHandlerStateChange={[Function]}
+          onHandlerStateChange={[Function]}
+          onPress={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Object {
+                "height": 24,
+                "width": 24,
+              }
+            }
+          />
+        </RNGestureHandlerButton>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "alignSelf": "center",
+              "justifyContent": "flex-end",
+              "paddingTop": 6,
+              "width": 660,
+            }
+          }
+        >
+          <Text
+            mode="regularBody16"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "fontFamily": "Dana-Regular",
+                    "fontSize": 16,
+                  },
+                  Object {},
+                ],
+              ]
+            }
+          >
+            انواع اشتراک ها
+          </Text>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <ActivityIndicator
+              animating={true}
+              color="#7766C6"
+              hidesWhenStopped={true}
+              size="large"
+            />
+          </View>
+        </View>
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#DFE3EB",
+              "height": 0.5,
+              "marginTop": 32,
+              "width": 675,
+            }
+          }
+        />
+      </View>
+      <View>
+        <View
+          style={
+            Object {
+              "alignItems": "flex-end",
+              "alignSelf": "center",
+              "height": 240,
+              "justifyContent": "space-evenly",
+              "paddingBottom": 10,
+              "top": "4%",
+              "width": 675,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row-reverse",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "rgba(234, 233, 255, 0.8)",
+                  "borderRadius": 8,
+                  "height": 32,
+                  "justifyContent": "center",
+                  "width": 32,
+                }
+              }
+            >
+              <Image
+                resizeMode="contain"
+                source={1}
+                style={
+                  Object {
+                    "height": 20,
+                    "width": 20,
+                  }
+                }
+              />
+            </View>
+            <Text
+              mode="mediumHeadline22"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Medium",
+                      "fontSize": 22,
+                    },
+                    Object {
+                      "color": "#676773",
+                      "left": 8,
+                    },
+                  ],
+                ]
+              }
+            >
+              چرا اشتراک بخرم؟
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "height": 132,
+                "justifyContent": "space-around",
+                "marginRight": 4,
+                "marginTop": 10,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row-reverse",
+                  "marginVertical": 6,
+                }
+              }
+            >
+              <Image
+                collapsable={false}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                resizeMode="contain"
+                source={1}
+                style={
+                  Object {
+                    "height": 14,
+                    "width": 14,
+                  }
+                }
+              />
+              <Text
+                mode="mediumBody14"
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "fontFamily": "Dana-Medium",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#200E32",
+                        "left": 22.5,
+                      },
+                    ],
+                  ]
+                }
+              >
+                دسترسی کامل به همه دوره های مدیتیشن
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row-reverse",
+                  "marginVertical": 6,
+                }
+              }
+            >
+              <Image
+                collapsable={false}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                resizeMode="contain"
+                source={1}
+                style={
+                  Object {
+                    "height": 14,
+                    "width": 14,
+                  }
+                }
+              />
+              <Text
+                mode="mediumBody14"
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "fontFamily": "Dana-Medium",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#200E32",
+                        "left": 22.5,
+                      },
+                    ],
+                  ]
+                }
+              >
+                دسترسی کامل به همه درس ها
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row-reverse",
+                  "marginVertical": 6,
+                }
+              }
+            >
+              <Image
+                collapsable={false}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                resizeMode="contain"
+                source={1}
+                style={
+                  Object {
+                    "height": 14,
+                    "width": 14,
+                  }
+                }
+              />
+              <Text
+                mode="mediumBody14"
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "fontFamily": "Dana-Medium",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#200E32",
+                        "left": 22.5,
+                      },
+                    ],
+                  ]
+                }
+              >
+                دسترسی کامل به همه موسیقی ها
+              </Text>
+            </View>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "flexDirection": "row-reverse",
+                  "marginVertical": 6,
+                }
+              }
+            >
+              <Image
+                collapsable={false}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                resizeMode="contain"
+                source={1}
+                style={
+                  Object {
+                    "height": 14,
+                    "width": 14,
+                  }
+                }
+              />
+              <Text
+                mode="mediumBody14"
+                style={
+                  Array [
+                    Array [
+                      Object {
+                        "fontFamily": "Dana-Medium",
+                        "fontSize": 14,
+                      },
+                      Object {
+                        "color": "#200E32",
+                        "left": 22.5,
+                      },
+                    ],
+                  ]
+                }
+              >
+                دسترسی کامل به دوره خواب
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 100,
+        "justifyContent": "flex-end",
+        "paddingBottom": 32,
+      }
+    }
+  />
+</RNCSafeAreaView>
+`;

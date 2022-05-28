@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    headerTitle=""
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+          "paddingBottom": 40,
+          "paddingTop": 32,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#F9FAFC",
+            "flex": 1,
+          },
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "minHeight": 700,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "borderRadius": 8,
+                "height": 270,
+                "overflow": "hidden",
+                "width": 675,
+              }
+            }
+          >
+            <Image
+              source={
+                Object {
+                  "uri": "",
+                }
+              }
+              style={
+                Object {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+            />
+          </View>
+          <View
+            style={
+              Object {
+                "alignSelf": "center",
+                "height": 40,
+                "marginTop": 16,
+                "width": 675,
+              }
+            }
+          >
+            <Text
+              mode="regularSub12"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Regular",
+                      "fontSize": 12,
+                    },
+                    Object {
+                      "color": "#676773",
+                      "textAlign": "right",
+                    },
+                  ],
+                ]
+              }
+            >
+              
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "flex-start",
+                "marginTop": 30,
+              }
+            }
+          >
+            <Text
+              mode="boldBody16"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "textAlign": "right",
+                    },
+                  ],
+                ]
+              }
+            >
+              در حال بارگذاری...
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaView>
+`;

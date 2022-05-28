@@ -1,0 +1,644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "flex-end",
+          "backgroundColor": "#F9FAFC",
+          "flexDirection": "row-reverse",
+          "height": 56,
+          "justifyContent": "flex-start",
+          "paddingLeft": 24,
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <RNGestureHandlerButton
+      activeOpacity={0.3}
+      borderless={true}
+      collapsable={false}
+      hitSlop={
+        Object {
+          "horizontal": 10,
+          "vertical": 10,
+        }
+      }
+      onActiveStateChange={[Function]}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      onPress={[MockFunction]}
+      rippleColor={1714763061}
+      style={
+        Object {
+          "opacity": 1,
+          "paddingBottom": 4,
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={1}
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
+      />
+    </RNGestureHandlerButton>
+    <Text
+      mode="boldBody16"
+      style={
+        Array [
+          Array [
+            Object {
+              "fontFamily": "Dana-Bold",
+              "fontSize": 16,
+            },
+            Array [
+              Object {
+                "marginRight": 16,
+              },
+              undefined,
+            ],
+          ],
+        ]
+      }
+    >
+      تنظیمات
+    </Text>
+  </View>
+  <View
+    headerTitle="تنظیمات"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+          "paddingBottom": 40,
+          "paddingTop": 32,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+        }
+      }
+    >
+      <View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "height": 88,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row-reverse",
+                "justifyContent": "flex-start",
+                "right": 26,
+              }
+            }
+          >
+            <Image
+              collapsable={false}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              mode="mediumBody16"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Medium",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "left": 10,
+                      },
+                      Object {
+                        "color": "#200E32",
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              اطلاعات شخصی
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#DFE3EB",
+                "height": 1,
+                "width": 750,
+              }
+            }
+          />
+          <RNGestureHandlerButton
+            activeOpacity={0.105}
+            collapsable={false}
+            onActiveStateChange={[Function]}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            onPress={[Function]}
+            rippleColor={4293586420}
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            underlayColor="black"
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "borderBottomLeftRadius": undefined,
+                  "borderBottomRightRadius": undefined,
+                  "borderRadius": undefined,
+                  "borderTopLeftRadius": undefined,
+                  "borderTopRightRadius": undefined,
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </RNGestureHandlerButton>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "height": 88,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row-reverse",
+                "justifyContent": "flex-start",
+                "right": 26,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              mode="mediumBody16"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Medium",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "left": 10,
+                      },
+                      Object {
+                        "color": "#200E32",
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              فروشگاه دنج
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#DFE3EB",
+                "height": 1,
+                "width": 750,
+              }
+            }
+          />
+          <RNGestureHandlerButton
+            activeOpacity={0.105}
+            collapsable={false}
+            onActiveStateChange={[Function]}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            onPress={[Function]}
+            rippleColor={4293586420}
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            underlayColor="black"
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "borderBottomLeftRadius": undefined,
+                  "borderBottomRightRadius": undefined,
+                  "borderRadius": undefined,
+                  "borderTopLeftRadius": undefined,
+                  "borderTopRightRadius": undefined,
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </RNGestureHandlerButton>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "height": 88,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row-reverse",
+                "justifyContent": "flex-start",
+                "right": 26,
+              }
+            }
+          >
+            <Image
+              collapsable={false}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              mode="mediumBody16"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Medium",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "left": 10,
+                      },
+                      Object {
+                        "color": "#200E32",
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              جلسات مورد علاقه شما
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#DFE3EB",
+                "height": 1,
+                "width": 750,
+              }
+            }
+          />
+          <RNGestureHandlerButton
+            activeOpacity={0.105}
+            collapsable={false}
+            onActiveStateChange={[Function]}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            onPress={[Function]}
+            rippleColor={4293586420}
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            underlayColor="black"
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "borderBottomLeftRadius": undefined,
+                  "borderBottomRightRadius": undefined,
+                  "borderRadius": undefined,
+                  "borderTopLeftRadius": undefined,
+                  "borderTopRightRadius": undefined,
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </RNGestureHandlerButton>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "height": 88,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row-reverse",
+                "justifyContent": "flex-start",
+                "right": 26,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              mode="mediumBody16"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Medium",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "left": 10,
+                      },
+                      Object {
+                        "color": "#200E32",
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              درباره ما
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "backgroundColor": "#DFE3EB",
+                "height": 1,
+                "width": 750,
+              }
+            }
+          />
+          <RNGestureHandlerButton
+            activeOpacity={0.105}
+            collapsable={false}
+            onActiveStateChange={[Function]}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            onPress={[Function]}
+            rippleColor={4293586420}
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            underlayColor="black"
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "borderBottomLeftRadius": undefined,
+                  "borderBottomRightRadius": undefined,
+                  "borderRadius": undefined,
+                  "borderTopLeftRadius": undefined,
+                  "borderTopRightRadius": undefined,
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </RNGestureHandlerButton>
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "column",
+              "height": 88,
+              "justifyContent": "space-evenly",
+              "width": 750,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flex": 1,
+                "flexDirection": "row-reverse",
+                "justifyContent": "flex-start",
+                "right": 26,
+              }
+            }
+          >
+            <Image
+              collapsable={false}
+              onGestureHandlerEvent={[Function]}
+              onGestureHandlerStateChange={[Function]}
+              resizeMode="contain"
+              source={1}
+              style={
+                Object {
+                  "height": 24,
+                  "width": 24,
+                }
+              }
+            />
+            <Text
+              mode="mediumBody16"
+              style={
+                Array [
+                  Array [
+                    Object {
+                      "fontFamily": "Dana-Medium",
+                      "fontSize": 16,
+                    },
+                    Array [
+                      Object {
+                        "left": 10,
+                      },
+                      Object {
+                        "color": "red",
+                      },
+                    ],
+                  ],
+                ]
+              }
+            >
+              خروج از حساب کاربری
+            </Text>
+          </View>
+          <RNGestureHandlerButton
+            activeOpacity={0.105}
+            collapsable={false}
+            onActiveStateChange={[Function]}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            onPress={[Function]}
+            rippleColor={4293586420}
+            style={
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              }
+            }
+            underlayColor="black"
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "black",
+                  "borderBottomLeftRadius": undefined,
+                  "borderBottomRightRadius": undefined,
+                  "borderRadius": undefined,
+                  "borderTopLeftRadius": undefined,
+                  "borderTopRightRadius": undefined,
+                  "bottom": 0,
+                  "left": 0,
+                  "opacity": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+          </RNGestureHandlerButton>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</RNCSafeAreaView>
+`;

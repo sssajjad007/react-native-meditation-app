@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+      "left",
+      "right",
+    ]
+  }
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#F9FAFC",
+          "flex": 1,
+          "paddingBottom": 40,
+          "paddingTop": 32,
+        },
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "right": 24,
+        }
+      }
+    >
+      <Text
+        mode="boldBody16"
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Bold",
+                "fontSize": 16,
+              },
+              Object {
+                "textAlign": "right",
+              },
+            ],
+          ]
+        }
+      >
+        موسیقی
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 10,
+        }
+      }
+    >
+      <Text
+        mode="boldBody18"
+        style={
+          Array [
+            Array [
+              Object {
+                "fontFamily": "Dana-Bold",
+                "fontSize": 18,
+              },
+              Object {
+                "textAlign": "right",
+              },
+            ],
+          ]
+        }
+      >
+        در حال بارگذاری...
+      </Text>
+    </View>
+  </View>
+</RNCSafeAreaView>
+`;
