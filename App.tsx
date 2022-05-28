@@ -13,7 +13,6 @@ import { Favorites } from "./app/favorites/screens/Favorites";
 import { AboutUs } from "./app/aboutUs/screens/AboutUs";
 import { UserInfo } from "./app/userInfo/screens/UserInfo";
 import { GenderModal } from "./app/userInfo/screens/GenderModal";
-import { Reminder } from "./app/reminder/screens/ReminderScreen";
 import { WheelPicker } from "./app/userInfo/screens/BirthDayPicker";
 import { BottomSheetModalProvider } from "@gorhom/bottom-sheet";
 import { Platform } from "react-native";
@@ -34,14 +33,13 @@ import {
 import { LearnScreen } from "./app/learn/screens/LearnScreen";
 import { Meditation } from "./app/meditation/screens/MeditationScreen";
 import { MeditationCourse } from "./app/meditation/screens/MeditationCourse";
-import { THEME, refresh, metrixInit } from "./app/library";
+import { THEME, refresh } from "./app/library";
 import { Login } from "./app/authentication/screens/Login";
 import { exit, onExit, onLogin } from "./app/library/authEvent";
 import { MusicScreen } from "./app/music/screens/CategoryScreen";
 import { MusicList } from "./app/music/screens/MusicListScreen";
 import { ShopScreen } from "./app/shop/screens/Shop";
 import { TermsScreen } from "./app/terms/screens";
-import { AddReminder } from "./app/reminder/screens/AddReminder";
 import { ifIphoneX } from "react-native-iphone-x-helper";
 const Stack = createNativeStackNavigator();
 const AuthStack = createNativeStackNavigator();
@@ -176,7 +174,6 @@ function Stacks() {
         screenOptions={{ headerShown: false }}
       >
         {/* <Stack.Group> */}
-        <Stack.Screen name="Reminder" component={Reminder} />
         <Stack.Screen name="TermsScreen" component={TermsScreen} />
         <Stack.Screen name="MeditationCourse" component={MeditationCourse} />
         <Stack.Screen name="ShopScreen" component={ShopScreen} />
@@ -186,7 +183,6 @@ function Stacks() {
         <Stack.Screen name="Meditation" component={Meditation} />
         <Stack.Screen name="MyTabs" component={MyTabs} />
         <Stack.Screen name="Profile" component={Profile} />
-        <Stack.Screen name="AddReminder" component={AddReminder} />
         <Stack.Screen name="UserInfo" component={UserInfo} />
         <Stack.Screen name="Player" component={Player} />
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
@@ -250,7 +246,7 @@ export default function App() {
       setAppReady(true);
       return;
     }
-    metrixInit();
+    // metrixInit();
     setIsSignedIn(true);
     setAppReady(true);
   }
