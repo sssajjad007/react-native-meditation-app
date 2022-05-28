@@ -10,7 +10,7 @@ import { register, login as loginUsecase } from "../../usecases";
 import { AuthTitle } from "../../components/AuthTitle";
 import { tStep } from "../../types";
 import * as Analytics from "expo-firebase-analytics";
-import { useNavigation } from "@react-navigation/core";
+import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { SafeAreaView } from "react-native-safe-area-context";
 
