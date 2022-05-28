@@ -1,5 +1,4 @@
 import { request } from "../../../library";
-import { IFavTrack } from "../../types";
 import { IFetchGetFavTracksProps } from "../../types/adapters";
 import { parseFavTrack } from "../utils";
 
