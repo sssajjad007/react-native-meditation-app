@@ -10,8 +10,14 @@ import { styles } from "./styles";
 export function MeditationCourse() {
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
   const [course, setCourse] = useState([]);
-  const routes = useRoute<any>();
-  const { track, title, poster, description, objectId } = routes.params;
+  const route = useRoute<any>();
+
+  const track = route.params?.track || [];
+  const title = route.params?.title || "";
+  const poster = route.params?.poster || "";
+  const description = route.params?.description || "";
+  const objectId = route.params?.objectId || "";
+
   const [isPremium, setIsPremium] = useState<boolean>(false);
   async function retriveCourseDetails() {
     const isUSerPremium = storage.retrieve("is_premium", "boolean");
