@@ -12,8 +12,12 @@ export function MusicList() {
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
   const [musics, setMusics] = useState([]);
   const [isPremium, setIsPremium] = useState<boolean>(false);
-  const routes = useRoute<any>();
-  const { track, title, poster } = routes.params;
+  const route = useRoute<any>();
+
+  const track = route.params?.track || [];
+  const title = route.params?.title || "";
+  const poster = route.params?.poster || "";
+
   function renderer() {
     const result: JSX.Element[] = [];
     if (musics.length === 0 || isPremium === undefined) {

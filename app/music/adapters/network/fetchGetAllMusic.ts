@@ -12,14 +12,13 @@ export async function fetchGetAllMusic() {
       AllMusic: [],
     };
   }
-  //   console.log(payload.musics.track);
+
   const obj = Object(payload?.musics);
   const AllMusic = [];
   for (let index = 0; index < obj.length; index++) {
     const item = obj[index];
     AllMusic.push(parseAllMusic(item));
   }
-  //   console.log("AllMusic: ", AllMusic);
   return {
     error: "",
     AllMusic,
