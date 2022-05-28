@@ -10,7 +10,8 @@
     "start": "react-native start",
     "start:expo": "expo start --dev",
     "test": "jest",
-    "test update": "jest -u"
+    "test update": "jest -u",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@cafebazaar/react-native-poolakey": "^0.2.0",
@@ -97,6 +98,7 @@
     "@types/react-native-wheel-pick": "^1.1.2",
     "@types/ua-parser-js": "^0.7.36",
     "babel-preset-expo": "9.0.2",
+    "husky": "^8.0.1",
     "jest": "^26.6.3",
     "jest-expo": "^45.0.1",
     "typescript": "~4.3.5",
