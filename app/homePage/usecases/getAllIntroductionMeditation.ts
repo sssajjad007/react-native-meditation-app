@@ -47,10 +47,8 @@ export async function getAllIntroductionMeditation() {
   let totalNumberDone = meditationDoneLength;
   let totalNumber = introductionMeditation.course.length;
   let objectId = introductionMeditation.objectId;
-  const introductionMeditationTrack = storage.retrieve(
-    IntroductionTrackNotDone[0],
-    "string"
-  );
+  const introductionMeditationTrack =
+    storage.retrieve(IntroductionTrackNotDone[0], "string") || "";
   const introductionCourse = JSON.parse(introductionMeditationTrack);
   function isPremiumCheker() {
     if (!isPremium && meditationDoneLength > 3) {

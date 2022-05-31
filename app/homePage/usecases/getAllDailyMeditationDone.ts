@@ -23,10 +23,8 @@ export async function GetAllDailyMeditation() {
   if (dailyPlayed === today) {
     length = Math.max(0, length - 1);
   }
-  const dailyMeditationTrack = storage.retrieve(
-    dailyMeditations.track[length],
-    "string"
-  );
+  const dailyMeditationTrack =
+    storage.retrieve(dailyMeditations.track[length], "string") || "";
   const dailyCourse = JSON.parse(dailyMeditationTrack);
 
   dailyCourse.poster = dailyMeditations.poster;
