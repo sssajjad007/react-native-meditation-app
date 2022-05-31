@@ -1,4 +1,3 @@
-//@ts-nocheck
 import { useIsFocused, useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import React, { useEffect, useState } from "react";
@@ -9,11 +8,14 @@ import { getAllMusic } from "../../usecases";
 import * as Analytics from "expo-firebase-analytics";
 
 import { styles } from "./styles";
+import { IAllMusicProp } from "../../types/screen";
 export function MusicScreen() {
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
   const isFocused = useIsFocused();
 
-  const [musicCategory, setMusicCategory] = useState([]);
+  const [musicCategory, setMusicCategory] = useState<IAllMusicProp[]>([
+    { objectId: "", title: "", poster: "", track: [] },
+  ]);
 
   async function musicTabEvent() {
     try {
@@ -24,7 +26,7 @@ export function MusicScreen() {
   }
 
   async function getMusics() {
-    const { AllMusic } = await getAllMusic();
+    const AllMusic = await getAllMusic();
     // console.log(AllMusic[0].track);
     setMusicCategory(AllMusic);
   }
