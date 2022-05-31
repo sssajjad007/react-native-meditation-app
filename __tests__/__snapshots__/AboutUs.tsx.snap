@@ -35,6 +35,8 @@ exports[`renders correctly 1`] = `
       activeOpacity={0.3}
       borderless={true}
       collapsable={false}
+      handlerTag={1}
+      handlerType="NativeViewGestureHandler"
       hitSlop={
         Object {
           "horizontal": 10,
@@ -229,6 +231,8 @@ exports[`renders correctly 1`] = `
               <RNGestureHandlerButton
                 activeOpacity={0.105}
                 collapsable={false}
+                handlerTag={2}
+                handlerType="NativeViewGestureHandler"
                 onActiveStateChange={[Function]}
                 onGestureEvent={[Function]}
                 onGestureHandlerEvent={[Function]}
@@ -329,6 +333,8 @@ exports[`renders correctly 1`] = `
               <RNGestureHandlerButton
                 activeOpacity={0.105}
                 collapsable={false}
+                handlerTag={3}
+                handlerType="NativeViewGestureHandler"
                 onActiveStateChange={[Function]}
                 onGestureEvent={[Function]}
                 onGestureHandlerEvent={[Function]}

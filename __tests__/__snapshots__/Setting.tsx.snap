@@ -35,6 +35,8 @@ exports[`renders correctly 1`] = `
       activeOpacity={0.3}
       borderless={true}
       collapsable={false}
+      handlerTag={1}
+      handlerType="NativeViewGestureHandler"
       hitSlop={
         Object {
           "horizontal": 10,
@@ -135,6 +137,8 @@ exports[`renders correctly 1`] = `
           >
             <Image
               collapsable={false}
+              handlerTag={2}
+              handlerType="TapGestureHandler"
               onGestureHandlerEvent={[Function]}
               onGestureHandlerStateChange={[Function]}
               resizeMode="contain"
@@ -182,6 +186,8 @@ exports[`renders correctly 1`] = `
           <RNGestureHandlerButton
             activeOpacity={0.105}
             collapsable={false}
+            handlerTag={3}
+            handlerType="NativeViewGestureHandler"
             onActiveStateChange={[Function]}
             onGestureEvent={[Function]}
             onGestureHandlerEvent={[Function]}
@@ -287,6 +293,8 @@ exports[`renders correctly 1`] = `
           <RNGestureHandlerButton
             activeOpacity={0.105}
             collapsable={false}
+            handlerTag={4}
+            handlerType="NativeViewGestureHandler"
             onActiveStateChange={[Function]}
             onGestureEvent={[Function]}
             onGestureHandlerEvent={[Function]}
@@ -348,6 +356,8 @@ exports[`renders correctly 1`] = `
           >
             <Image
               collapsable={false}
+              handlerTag={5}
+              handlerType="TapGestureHandler"
               onGestureHandlerEvent={[Function]}
               onGestureHandlerStateChange={[Function]}
               resizeMode="contain"
@@ -395,6 +405,8 @@ exports[`renders correctly 1`] = `
           <RNGestureHandlerButton
             activeOpacity={0.105}
             collapsable={false}
+            handlerTag={6}
+            handlerType="NativeViewGestureHandler"
             onActiveStateChange={[Function]}
             onGestureEvent={[Function]}
             onGestureHandlerEvent={[Function]}
@@ -500,6 +512,8 @@ exports[`renders correctly 1`] = `
           <RNGestureHandlerButton
             activeOpacity={0.105}
             collapsable={false}
+            handlerTag={7}
+            handlerType="NativeViewGestureHandler"
             onActiveStateChange={[Function]}
             onGestureEvent={[Function]}
             onGestureHandlerEvent={[Function]}
@@ -561,6 +575,8 @@ exports[`renders correctly 1`] = `
           >
             <Image
               collapsable={false}
+              handlerTag={8}
+              handlerType="TapGestureHandler"
               onGestureHandlerEvent={[Function]}
               onGestureHandlerStateChange={[Function]}
               resizeMode="contain"
@@ -599,6 +615,8 @@ exports[`renders correctly 1`] = `
           <RNGestureHandlerButton
             activeOpacity={0.105}
             collapsable={false}
+            handlerTag={9}
+            handlerType="NativeViewGestureHandler"
             onActiveStateChange={[Function]}
             onGestureEvent={[Function]}
             onGestureHandlerEvent={[Function]}

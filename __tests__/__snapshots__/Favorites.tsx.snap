@@ -35,6 +35,8 @@ exports[`renders correctly 1`] = `
       activeOpacity={0.3}
       borderless={true}
       collapsable={false}
+      handlerTag={1}
+      handlerType="NativeViewGestureHandler"
       hitSlop={
         Object {
           "horizontal": 10,

@@ -37,6 +37,8 @@ exports[`renders correctly 1`] = `
       >
         <Image
           collapsable={false}
+          handlerTag={1}
+          handlerType="TapGestureHandler"
           onGestureHandlerEvent={[Function]}
           onGestureHandlerStateChange={[Function]}
           resizeMode="contain"
@@ -68,6 +70,8 @@ exports[`renders correctly 1`] = `
           activeOpacity={0.3}
           borderless={true}
           collapsable={false}
+          handlerTag={2}
+          handlerType="NativeViewGestureHandler"
           hitSlop={
             Object {
               "horizontal": 10,

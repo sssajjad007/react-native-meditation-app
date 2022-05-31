@@ -152,6 +152,8 @@ exports[`renders correctly 1`] = `
         <RNGestureHandlerButton
           activeOpacity={0.105}
           collapsable={false}
+          handlerTag={1}
+          handlerType="NativeViewGestureHandler"
           onActiveStateChange={[Function]}
           onGestureEvent={[Function]}
           onGestureHandlerEvent={[Function]}

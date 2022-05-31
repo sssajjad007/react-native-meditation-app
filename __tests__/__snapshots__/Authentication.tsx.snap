@@ -131,6 +131,8 @@ exports[`renders correctly 1`] = `
       >
         <Text
           collapsable={false}
+          handlerTag={1}
+          handlerType="TapGestureHandler"
           onGestureHandlerEvent={[Function]}
           onGestureHandlerStateChange={[Function]}
           style={
@@ -155,6 +157,8 @@ exports[`renders correctly 1`] = `
       </View>
       <View
         collapsable={false}
+        handlerTag={2}
+        handlerType="TapGestureHandler"
         onGestureHandlerEvent={[Function]}
         onGestureHandlerStateChange={[Function]}
         pointerEvents="box-only"

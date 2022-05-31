@@ -87,22 +87,110 @@ exports[`renders correctly 1`] = `
               }
             }
           >
-            <Text
-              mode="boldBody18"
+            <View
               style={
-                Array [
-                  Array [
-                    Object {
-                      "fontFamily": "Dana-Bold",
-                      "fontSize": 18,
-                    },
-                    undefined,
-                  ],
-                ]
+                Object {
+                  "backgroundColor": "#F9FAFC",
+                  "borderColor": "#76BEB1",
+                  "borderRadius": 8,
+                  "borderWidth": 1,
+                  "flexDirection": "row-reverse",
+                  "height": 72,
+                  "marginVertical": 10,
+                  "width": 675,
+                }
               }
             >
-              در حال بارگذاری...
-            </Text>
+              <View
+                style={
+                  Object {
+                    "alignItems": "flex-end",
+                    "flex": 4,
+                    "justifyContent": "center",
+                    "paddingRight": 24,
+                  }
+                }
+              >
+                <Text
+                  mode="mediumBody16"
+                  style={
+                    Array [
+                      Array [
+                        Object {
+                          "fontFamily": "Dana-Medium",
+                          "fontSize": 16,
+                        },
+                        undefined,
+                      ],
+                    ]
+                  }
+                >
+                  
+                </Text>
+              </View>
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={1}
+                  style={
+                    Object {
+                      "height": 32,
+                      "width": 32,
+                    }
+                  }
+                />
+              </View>
+              <RNGestureHandlerButton
+                activeOpacity={0.105}
+                collapsable={false}
+                handlerTag={1}
+                handlerType="NativeViewGestureHandler"
+                onActiveStateChange={[Function]}
+                onGestureEvent={[Function]}
+                onGestureHandlerEvent={[Function]}
+                onGestureHandlerStateChange={[Function]}
+                onHandlerStateChange={[Function]}
+                onPress={[Function]}
+                rippleColor={4293586420}
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+                underlayColor="black"
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "black",
+                      "borderBottomLeftRadius": undefined,
+                      "borderBottomRightRadius": undefined,
+                      "borderRadius": undefined,
+                      "borderTopLeftRadius": undefined,
+                      "borderTopRightRadius": undefined,
+                      "bottom": 0,
+                      "left": 0,
+                      "opacity": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                />
+              </RNGestureHandlerButton>
+            </View>
           </View>
         </View>
       </View>

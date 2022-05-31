@@ -80,6 +80,8 @@ exports[`renders correctly 1`] = `
           activeOpacity={0.3}
           borderless={true}
           collapsable={false}
+          handlerTag={1}
+          handlerType="NativeViewGestureHandler"
           onActiveStateChange={[Function]}
           onGestureEvent={[Function]}
           onGestureHandlerEvent={[Function]}
@@ -283,6 +285,8 @@ exports[`renders correctly 1`] = `
             >
               <Image
                 collapsable={false}
+                handlerTag={2}
+                handlerType="TapGestureHandler"
                 onGestureHandlerEvent={[Function]}
                 onGestureHandlerStateChange={[Function]}
                 resizeMode="contain"
@@ -326,6 +330,8 @@ exports[`renders correctly 1`] = `
             >
               <Image
                 collapsable={false}
+                handlerTag={3}
+                handlerType="TapGestureHandler"
                 onGestureHandlerEvent={[Function]}
                 onGestureHandlerStateChange={[Function]}
                 resizeMode="contain"
@@ -369,6 +375,8 @@ exports[`renders correctly 1`] = `
             >
               <Image
                 collapsable={false}
+                handlerTag={4}
+                handlerType="TapGestureHandler"
                 onGestureHandlerEvent={[Function]}
                 onGestureHandlerStateChange={[Function]}
                 resizeMode="contain"
@@ -412,6 +420,8 @@ exports[`renders correctly 1`] = `
             >
               <Image
                 collapsable={false}
+                handlerTag={5}
+                handlerType="TapGestureHandler"
                 onGestureHandlerEvent={[Function]}
                 onGestureHandlerStateChange={[Function]}
                 resizeMode="contain"
