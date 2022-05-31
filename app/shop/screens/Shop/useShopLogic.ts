@@ -63,7 +63,7 @@ export function useShopLogic() {
       const sku = activeItem["sku"];
       await skuEvent(sku);
       Linking.openURL(
-        `https://denjapp.com/api/v1/indexPayment?sku=${sku}&user_id=${userId}&market=${marketFlag}`
+        `example.com/${sku}&user_id=${userId}&market=${marketFlag}`
       );
     }
   }

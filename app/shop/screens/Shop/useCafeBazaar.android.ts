@@ -7,7 +7,7 @@ import type { IUseCafeBazaar } from "../../types";
 export function useCafeBazaar(args: IUseCafeBazaar) {
   const { setSubscriptionDaysLeft, setUserPremium } = args;
   const bazaar = useBazaar(
-    "MIHNMA0GCSqGSIb3DQEBAQUAA4G7ADCBtwKBrwDQz15/y58/rsYeQFCUz52x6sKl7rvJOMdRgMOt01RTVtca1ZcveT5kXamMQxwUXjt7o/bPpCJXD4YMIf88Sp9QaiZjTPtFvQxViLvS+zX7tM0Gd3oFuriaiCTn/0URxpD01TysASKOGKNevbE9qR9iM6V7mhEDR1e8yg9jn9+3blRMBuTCjSINRBzpQGSjWnaf63uIx61pFxS1vHl5uKn5kgkgu4IBzf9FkmwiqgECAwEAAQ=="
+    "/y58//example+/+=="
   );
   function SubscriptionValidUntilDate(SubscriptionValidUntil: number) {
     const SubscriptionDays = Math.ceil(
