@@ -5,12 +5,15 @@ import { View, Image } from "react-native";
 import { Container, storage, THEME, Typography } from "../../../library";
 import { Scroller } from "../../../library/Scroller";
 import { MeditationCardComponent } from "../../components/MeditationCard";
+import { ITrackProp, ProfileScreenRouteProp } from "../../types/screen";
 import { styles } from "./styles";
 
 export function MeditationCourse() {
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
-  const [course, setCourse] = useState([]);
-  const route = useRoute<any>();
+  const [course, setCourse] = useState<ITrackProp[]>([
+    { duration: 0, title: "", url: "", objectId: "" },
+  ]);
+  const route = useRoute<ProfileScreenRouteProp>();
 
   const track = route.params?.track || [];
   const title = route.params?.title || "";
@@ -24,7 +27,7 @@ export function MeditationCourse() {
     if (isUSerPremium != undefined) {
       setIsPremium(isUSerPremium);
     }
-    const result: any = [];
+    const result = [];
     for (let index = 0; index < track.length; index++) {
       if (track[index]) {
         const allCourse = storage.retrieve(track[index], "string");
@@ -79,6 +82,7 @@ export function MeditationCourse() {
           }
         }
       }
+
       result.push(
         <MeditationCardComponent
           title={element.title}
