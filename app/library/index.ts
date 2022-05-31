@@ -13,7 +13,7 @@ export {
 export { CustomBackdrop } from "./CustomBackdrop";
 export { Tap } from "./Tap";
 export { Container } from "./Container";
-export { openCamera, openCropper, openGallery } from "./cropPicker";
+// export { openCamera, openCropper, openGallery } from "./cropPicker";
 export { request, refresh, uploadFile } from "./network";
 export { Timer } from "./Timer";
 export { toString } from "./toString";
@@ -23,4 +23,3 @@ export { Radio } from "./Radio";
 export { SelectButton } from "./SelectButton";
 export { version, marketFlag } from "./Version";
 export * from "./Icon";
-export { newUserEvent, init as metrixInit } from "./metrixEvent"
