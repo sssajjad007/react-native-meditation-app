@@ -1,4 +1,3 @@
-//@ts-nocheck
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import React, { useEffect, useState } from "react";
@@ -6,13 +5,16 @@ import { View, Image } from "react-native";
 import { Container, storage, Typography } from "../../../library";
 import { Scroller } from "../../../library/Scroller";
 import { MusicCardComponent } from "../../components/MusicCard";
+import { IMusicProp, ProfileScreenRouteProp } from "../../types/screen";
 import { styles } from "./styles";
 
 export function MusicList() {
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
-  const [musics, setMusics] = useState([]);
+  const [musics, setMusics] = useState<IMusicProp[]>([
+    { duration: 0, id: "", title: "", url: "" },
+  ]);
   const [isPremium, setIsPremium] = useState<boolean>(false);
-  const route = useRoute<any>();
+  const route = useRoute<ProfileScreenRouteProp>();
 
   const track = route.params?.track || [];
   const title = route.params?.title || "";
@@ -54,8 +56,9 @@ export function MusicList() {
   async function retriveTracksDetails() {
     const isUSerPremium = storage.retrieve("is_premium", "boolean");
     const result: any = [];
-    setIsPremium(isUSerPremium);
-
+    if (isUSerPremium != undefined) {
+      setIsPremium(isUSerPremium);
+    }
     for (let index = 0; index < track.length; index++) {
       if (track[index]) {
         const singleTrack = storage.retrieve(track[index], "string");
@@ -80,22 +83,6 @@ export function MusicList() {
   return (
     <Container headerTitle={title}>
       <Scroller>
-        {/* <View style={styles.header}>
-        <Typography mode={"boldBody16"} style={{ right: 10 }}>
-          {title}
-        </Typography>
-        <BorderlessButton
-          onPress={() => {
-            navigation.goBack();
-          }}
-          rippleColor={"rgba(53,53,53,0.4)"}
-          // style={{ paddingBottom: 4 }}
-          hitSlop={{ horizontal: 10, vertical: 10 }}
-          borderless
-        >
-          <ArrowRightIcon size={24} />
-        </BorderlessButton>
-      </View> */}
         <View style={styles.assets}>
           <Image
             style={{ width: "100%", height: "100%" }}
@@ -105,7 +92,6 @@ export function MusicList() {
             }}
           />
         </View>
-
         <View style={styles.cardContainer}>{renderer()}</View>
       </Scroller>
     </Container>
