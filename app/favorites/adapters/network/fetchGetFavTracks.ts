@@ -1,5 +1,4 @@
-import { request, toString } from "../../../library";
-import { IFavTrack } from "../../types";
+import { request } from "../../../library";
 import { IFetchGetFavTracksProps } from "../../types/adapters";
 import { parseFavTrack } from "../utils";
 
