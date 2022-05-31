@@ -1,6 +1,6 @@
 export interface ITileProps {
   title: string;
-  section: string;
+  section: number;
   onPress: () => void;
   url: string;
 }
