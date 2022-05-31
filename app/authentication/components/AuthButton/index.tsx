@@ -1,12 +1,14 @@
 import { useNavigation } from "@react-navigation/native";
 import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import React from "react";
-import { Button, Paragraph, Subheading, Timer } from "../../../library";
-import { IAuthButtonProps, tStep } from "../../types";
+import { Button, Paragraph, Timer } from "../../../library";
+import { IAuthButtonProps } from "../../types";
 import { completeSignup } from "../../usecases";
+
 export function AuthButton(props: IAuthButtonProps) {
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
-  const {error, phone, step, onRegisterPress, onLoginPress, setStep, name } = props;
+  const { error, phone, step, onRegisterPress, onLoginPress, setStep, name } =
+    props;
   async function nameOnPress() {
     await completeSignup(name);
     navigation.navigate("StartMeditation");
@@ -18,7 +20,7 @@ export function AuthButton(props: IAuthButtonProps) {
         mode={"contained"}
         rippleColor={"lightGrey"}
         onPress={onRegisterPress}
-        disabled={error || phone.length < 11}
+        disabled={error ? true : false || phone.length < 11}
       >
         {"ارسال کد تایید"}
       </Button>
