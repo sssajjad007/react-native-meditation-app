@@ -1,7 +1,7 @@
-import { ReactChild, ReactChildren } from "react";
+import { ReactChild, ReactChildren, ReactNode } from "react";
 
 export interface ITapProps {
-  children: ReactChild | ReactChildren;
+  children: ReactNode;
   onPress?: () => void;
   enabled?: boolean;
 }
