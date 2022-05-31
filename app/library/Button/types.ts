@@ -1,4 +1,4 @@
-import { ReactChild, ReactElement } from "react";
+import { ReactNode, ReactElement } from "react";
 
 export type tMode = "text" | "outlined" | "contained";
 
@@ -19,7 +19,7 @@ export interface IButtonProps {
   onPress?: () => void;
   rippleColor: "lightGrey" | "grey" | "darkGrey";
   disabled?: boolean;
-  children: string | ReactChild;
+  children: string | ReactNode;
   color?: string;
   fullRadius?: boolean;
 }
