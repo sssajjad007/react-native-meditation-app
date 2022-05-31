@@ -1,2 +1,2 @@
-export function newUserEvent() {}
+// export function newUserEvent() {}
 export function init() {}
