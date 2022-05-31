@@ -1,6 +1,9 @@
 import { tStep } from "./screens";
 export interface IAuthInputProps {
+  error: string;
   name: string;
+  setError: (value: string) => void;
+  otpError: string;
   setName: (value: string) => void;
   setStep: any;
   step: tStep;
@@ -11,6 +14,8 @@ export interface IAuthInputProps {
   setGenCode: (value: string) => void;
 }
 export interface IAuthButtonProps {
+  error: string;
+  phone: string;
   name: string;
   setName: (value: string) => void;
   step: tStep;
