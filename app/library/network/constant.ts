@@ -1,1 +1,1 @@
-export const serverUrl = "https://denjapp.com/api/v1";
+export const serverUrl = "https://example.com/api/v1";
