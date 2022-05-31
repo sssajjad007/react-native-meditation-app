@@ -6,16 +6,19 @@ import { Container, THEME, Typography } from "../../../library";
 import { LikeIcon } from "../../../library/Icon";
 import { Scroller } from "../../../library/Scroller";
 import { FavCard } from "../../components/FavCard";
+import { IFavTracksList } from "../../types/usecases";
 import { deleteFavTracks } from "../../usecases";
 import { retrieveFavTracks } from "../../usecases/getFavTracks";
 import { styles, THEME_COLORS_PRIMARY_NORMAL } from "./styles";
+
 export function Favorites() {
   const isFocused = useIsFocused();
   const [empty, setEmpty] = useState<boolean>(true);
-  const [tracks, setTracks] = useState<any>("");
+  const [tracks, setTracks] = useState<IFavTracksList[]>([]);
   const [change, setChange] = useState<boolean>(false);
   const [loading, setLoading] = useState<boolean>(true);
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
+
   async function retrieveFavTrack() {
     const favTracksList = await retrieveFavTracks();
     setTracks(favTracksList);
