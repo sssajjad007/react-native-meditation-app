@@ -87,6 +87,7 @@ export function CarouselComponent(props: ICarouselProps) {
             borderRadius: 2,
             backgroundColor: THEME.COLORS.PRIMARY.NORMAL,
           },
+          //@ts-ignore
           PrevComponent: () => <Text>{""}</Text>,
         }}
       >
