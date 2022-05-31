@@ -37,7 +37,7 @@ export function UserInfo() {
   };
 
   async function GetUerInfo() {
-    const userId = storage.retrieve("user_id", "string");
+    const userId = storage.retrieve("user_id", "string") || "";
     const { userInfo } = await retrieveProfileName(userId);
     const name = storage.retrieve("name", "string") || userInfo.name;
     setState({ ...userInfo, name: userInfo.name });
