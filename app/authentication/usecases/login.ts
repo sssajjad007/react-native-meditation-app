@@ -1,5 +1,5 @@
 import { cleanPhoneNumber, fetchLogin } from "../adapters";
-import { secureStorage, storage, newUserEvent } from "../../library";
+import { secureStorage, storage } from "../../library";
 export async function login(phoneNumber: string, genCode: string) {
   const phoneNumberClean = cleanPhoneNumber(phoneNumber);
   const { error, userId, userType, refreshToken, Authorization, isPremium } =
@@ -7,9 +7,7 @@ export async function login(phoneNumber: string, genCode: string) {
   if (error) {
     return error;
   }
-  if (userType === "NEW_USER") {
-    newUserEvent();
-  }
+
   storage.add("user_id", userId);
   storage.add("user_type", userType);
   storage.add("is_premium", isPremium);
